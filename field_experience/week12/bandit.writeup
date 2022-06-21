@@ -1,2 +1,19 @@
-lev0 bandit0 : cat readme
-lev1 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+lev0: bandit0: ssh using given info
+
+lev0->1: boJ9jbbUNNfktd78OOpsqOltutMc3MY1: cat readme
+
+lev1->2: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9: cat <- to redirect input
+
+lev2->3: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK: cat ?spaces in this filename? to access file
+
+lev3->4: pIwrPrtPN36QITSp3EQaw936yaFoFgAB: access file ?inhere? using cd inhere, then access hidden files using ls ?a, then cat .hidden
+
+lev4->5: koReBOKuIDDepwhWk7jZC0RTdopnAYKh: cat <- on every file and file07 was the only file with human readable text
+ 
+Lev5->6: DXjZPULLxYr17uwoI01bNLQbtFemEgo7: access file ?inhere? using cd inhere, then use find . -size 1033c to specify the size of the file, then locate the exact file specified and then open it 
+
+
+Lev6->7: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs: find / -size 33c -user bandit7 -group bandit6 2>/dev/null then once I got the file, just access the file using cat filename
+
+
+
